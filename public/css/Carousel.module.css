@@ -1,0 +1,31 @@
+.custom-carousel {
+  position: relative;
+}
+
+.custom-carousel .control-dots {
+  position: absolute;
+  top: 2.7rem; /* Adjust this value to change the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-carousel .dot {
+  width: 10px; /* Adjust the width of the indicators */
+  height: 10px; /* Adjust the height of the indicators */
+  border-radius: 50%;
+  background-color: #fff; /* Indicator color */
+  margin: 0 5px; /* Adjust the space between indicators */
+  cursor: pointer;
+}
+
+.custom-carousel .dot.selected {
+  background-color: #007bff; /* Selected indicator color */
+}
+.carousel.carousel-slider {
+  position: relative;
+  margin: 0;
+  overflow: visible !important;
+}
